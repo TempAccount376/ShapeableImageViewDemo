@@ -1,0 +1,62 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.RoundedSmall" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Cut" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.TopRightRounded" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">80dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.TopRightCut" parent="">
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">80dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.TopLeftTopRightCut" parent="">
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">90dp</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerSizeTopLeft">90dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.BottomLeftTopRightRounded" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">80dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">80dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.BottomRightTopRightRounded" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">40dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">40dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.BottomLeftTopRightCut" parent="">
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">80dp</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+        <item name="cornerSizeBottomLeft">80dp</item>
+    </style>
+
+</resources>

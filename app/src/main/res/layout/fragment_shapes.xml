@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="img_1,img_2,img_3,
+            img_4,img_5, img_6, img_7, img_8, img_9, img_10"
+            app:flow_horizontalAlign="start"
+            app:flow_horizontalBias="0"
+            app:flow_maxElementsWrap="2"
+            app:flow_verticalBias="0"
+            app:flow_verticalGap="16dp"
+            app:flow_wrapMode="aligned"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_1"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Circle"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_2"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:strokeWidth="4dp"
+            android:padding="2dp"
+            app:strokeColor="@color/colorAccent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Circle"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_3"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.RoundedSmall"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_4"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:strokeWidth="4dp"
+            android:padding="2dp"
+            app:strokeColor="@color/colorAccent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.RoundedSmall"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_5"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.TopRightRounded"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_6"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:strokeWidth="4dp"
+            android:padding="2dp"
+            app:strokeColor="@color/colorAccent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.TopRightCut"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_7"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.TopLeftTopRightCut"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_8"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.BottomLeftTopRightRounded"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_9"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.BottomRightTopRightRounded"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_10"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sample_image"
+            app:strokeWidth="4dp"
+            android:padding="2dp"
+            app:strokeColor="@color/colorAccent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.BottomLeftTopRightCut"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

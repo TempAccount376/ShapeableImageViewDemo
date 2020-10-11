@@ -6,6 +6,8 @@ ShapeableImageView supports two corner families `CornerFamily.ROUNDED` and `Corn
 The code to change the shape is minimal and does not need different shape file, just add an overlay in `styles.xml` and then apply it using the `app:shapeAppearanceOverlay` attribute
 Use can also use kotlin to apply the desired shape and also change it dynamically.
 
+![](demo.gif)
+
 ***Important Note*** `app:shapeAppearanceOverlay` is working as a ThemeOverlay. ShapeAppearanceOverlay applies the changes without affecting the active theme.
 THe key to achieve this behaviour is to leave parent attribute empty
 
